@@ -1,0 +1,78 @@
+<!DOCTYPE html> <!-- Tell browser what version of HTML to render document (HTML5) -->
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8"> <!-- Display special symbols or characters correctly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Scaling Size -->
+    <!--* Add External Style Sheet  -->
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- Title on Tab Bar -->
+    <title>
+        Quiz
+    </title>
+</head>
+
+<body>
+    <!-- Create five multiple choice questions, each with 4 choices, in the form of radio buttons -->
+    <form action="quiz.php" method="post">
+        <div class="question">
+            <h2>Question 1</h2>
+            <p name="ask">What year was Batman Begins, the first film of an eventual trilogy, released?</p>
+            <!-- do the same as above but make value equal to text -->
+            <input type="radio" name="q1" value="2006">2006<br>
+            <input type="radio" name="q1" value="2005">2005<br> <!-- correct -->
+            <input type="radio" name="q1" value="2001">2001<br>
+            <input type="radio" name="q1" value="2009">2009<br>
+        </div>
+        <div class="question">
+            <h2>Question 2</h2>
+            <p name="ask">Memento is recognised as one of Christopher Nolan's best films. Which of these actors starred
+                in the
+                film?</p>
+            <!-- do the same as above but make value equal to text -->
+            <input type="radio" name="q2" value="George Clooney">George Clooney<br>
+            <input type="radio" name="q2" value="Christian Bale">Christian Bale<br>
+            <input type="radio" name="q2" value="Leonardo Di Caprio">Leonardo Di Caprio<br>
+            <input type="radio" name="q2" value="Guy Pearce">Guy Pearce<br> <!-- correct -->
+
+        </div>
+        <div class="question">
+            <h2>Question 3</h2>
+            <p name="ask">What's the name of the composer who's a frequent collaborator with Nolan, working on the
+                Batman films and
+                Inception?</p>
+            <!-- do the same as above but make value equal to text -->
+            <input type="radio" name="q3" value="Hans Zimmer">Hans Zimmer<br> <!-- correct -->
+            <input type="radio" name="q3" value="John Williams">John Williams<br>
+            <input type="radio" name="q3" value="Mark Mothersbaugh">Mark Mothersbaugh<br>
+            <input type="radio" name="q3" value="Danny Elfman">Danny Elfman<br>
+
+        </div>
+        <div class="question">
+            <h2>Question 4</h2>
+            <p name="ask">Which of these films did he co-write the screenplay with his brother Jonathan?</p>
+            <!-- do the same as above but make value equal to text -->
+            <input type="radio" name="q4" value="Interstellar">Interstellar<br>
+            <input type="radio" name="q4" value="The Prestige">The Prestige<br>
+            <input type="radio" name="q4" value="The Dark Knight Rises">The Dark Knight Rises<br>
+            <input type="radio" name="q4" value="All of the above">All of the above<br> <!-- correct -->
+        </div>
+        <div class="question">
+            <h2>Question 5</h2>
+            <p name="ask">His new film - Tenet - has the son of a multi-Oscar winning actor in the lead role. Who's
+                their famous
+                father?</p>
+            <!-- do the same as above but make value equal to text -->
+            <input type="radio" name="q5" value="Robert de Niro">Robert de Niro<br>
+            <input type="radio" name="q5" value="Denzel Washington">Denzel Washington<br> <!-- correct -->
+            <input type="radio" name="q5" value="Jack Nicholson">Jack Nicholson<br>
+            <input type="radio" name="q5" value="Tom Hanks">Tom Hanks<br>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+
+</html>

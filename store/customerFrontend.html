@@ -1,0 +1,94 @@
+<!DOCTYPE html> <!-- Tell browser what version of HTML to render document (HTML5) -->
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8"> <!-- Display special symbols or characters correctly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Scaling Size -->
+    <!--* Add External Style Sheet  -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- link from js -->
+    <script src="formChecker.js"></script>
+    <!-- Title on Tab Bar -->
+    <title>
+        Web Store
+    </title>
+</head>
+
+<body>
+    <!-- div for Welcome to the Store -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="password.html">Password</a>
+        <a href="slides.html">Slides</a>
+        <a href="profile.html">Profile</a>
+        <a href="manipulate.html">Manipulate</a>
+    </nav>
+    <div class="welcome">
+        <h1>Welcome to the Store</h1>
+    </div>
+    <!-- online store that sells three items with a username, password, and three shipping options -->
+    <div class="store">
+        <form action="store.php" method="post">
+            <!-- display three items with images that can be selected for purchase -->
+            <div class="items">
+                <div class="item">
+                    <label for="item1">Shirt</label>
+                    <img src="images/shirt.png" alt="item1">
+                    <!-- add ability for quantity -->
+                    <input label="Quantity" type="number" name="item1" id="item1" min="0" value="0"> Quantity</input>
+                </div>
+                <div class="item">
+                    <label for="item2">Pants</label>
+                    <img src="images/pants.png" alt="item2">
+                    <!-- add ability for quantity -->
+                    <input label="Quantity" type="number" name="item2" id="item2" min="0" value="0"> Quantity</input>
+                </div>
+                <div class="item">
+                    <label for="item3">Shoes</label>
+                    <img src="images/shoes.png" alt="item3">
+                    <!-- add ability for quantity -->
+                    <input label="Quantity" type="number" name="item3" id="item3" min="0" value="0"> Quantity</input>
+                </div>
+            </div>
+            <div class="login">
+                <div class="username">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username">
+                </div>
+                <div class="password">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password">
+                </div>
+            </div>
+            <div class="shipping">
+                <label for="shipping">Shipping:</label>
+                <!-- use radio buttons for shipping options: Free 7 day, $50.00 over night, and $5.00 three day -->
+                <div class="shipping-options">
+                    <input type="radio" name="shipping" id="free" value="free">
+                    <label for="free">Free 7 day</label>
+                </div>
+                <div class="shipping-options">
+                    <input type="radio" name="shipping" id="overnight" value="overnight">
+                    <label for="overnight">$50.00 over night</label>
+                </div>
+                <div class="shipping-options">
+                    <input type="radio" name="shipping" id="three-day" value="three-day">
+                    <label for="three-day">$5.00 three day</label>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="submit">
+                    <!-- button for submit with validateForm -->
+                    <button type="button" onclick="validateForm()">Submit</button>
+                </div>
+                <!-- reset button that defaults everything -->
+                <div class="reset">
+                    <input type="reset" value="Reset" onclick="resetValues()">
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

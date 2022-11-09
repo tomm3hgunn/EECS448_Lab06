@@ -1,0 +1,116 @@
+nav a {
+    padding: 0 20px;
+    text-decoration: none;
+    /* text font like youtube  */
+    font-family: 'Roboto', sans-serif;
+    /* text spaced out like youtube */
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+
+nav a:visited {
+    color: #ffffff;
+}
+
+body {
+    padding-top: 40px;
+    /* align body to center  */
+    text-align: center;
+
+}
+
+/* navigation bar like youtube */
+nav {
+    background-color: #333333;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    /* white text */
+    color: #ffffff;
+    /* align text to middle of screen */
+    text-align: center;
+    /* vertical text center */
+    line-height: 40px;
+
+}
+
+/* make all images 300 by 300 */
+img {
+    width: 300px;
+    height: 300px;
+}
+
+/* center welcome */
+.welcome {
+    text-align: center;
+}
+
+
+/* use item as a flex container for items */
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* round shadow box */
+    border-radius: 10px;
+    /* shadow box */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* padding */
+    padding: 10px;
+    /* margin */
+    margin: 10px;
+    
+}
+
+/* items put everything in row */
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* add gap on bottom */
+    margin-bottom: 20px;
+}
+
+/* center shipping class */
+.shipping {
+    box-shadow: 0 0 10px 5px #ccc;
+    border-radius: 10px;
+    /* add padding */
+    padding: 20px;
+    /* width fit */
+    width: fit-content;
+    /* center content */
+    text-align: center;
+    /* center text box */
+    margin: 0 auto;
+}
+
+/* use buttons as a flex container */
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* add gap */
+    gap: 10px;
+    /* add space between items and buttons */
+    margin-top: 20px;
+}
+
+/* login as flex container */
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* make label font bigger */
+label {
+    font-size: 20px;
+}
