@@ -6,7 +6,7 @@
     <meta charset="utf-8"> <!-- Display special symbols or characters correctly -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Scaling Size -->
     <!--* Add External Style Sheet  -->
-    <link rel="stylesheet" href="/~t790n230/css/stylesheet.css">
+    <link rel="stylesheet" href="/css/stylesheet.css">
 
     <!-- Title on Tab Bar -->
     <title>
@@ -16,20 +16,21 @@
 
 <body>
     <nav>
-        <a href="/~t790n230/index.html">Home</a>
-        <a href="/~t790n230/password.html">Password</a>
-        <a href="/~t790n230/slides.html">Slides</a>
-        <a href="/~t790n230/profile.html">Profile</a>
-        <a href="/~t790n230/manipulate.html">Manipulate</a>
-        <a href="/~t790n230/EECS448_Lab06/multiply/multiply.php">Multiplier</a>
-        <a href="/~t790n230/EECS448_Lab06/quiz/quiz.html">Quiz</a>
-        <a href="/~t790n230/EECS448_Lab06/store/customerFrontend.html">Store</a>
+        <a href="/index.html">Home</a>
+        <a href="/password.html">Password</a>
+        <a href="/slides.html">Slides</a>
+        <a href="/profile.html">Profile</a>
+        <a href="/manipulate.html">Manipulate</a>
+        <a href="/EECS448_Lab06/multiply/multiply.php">Multiplier</a>
+        <a href="/EECS448_Lab06/quiz/quiz.html">Quiz</a>
+        <a href="/EECS448_Lab06/store/customerFrontend.html">Store</a>
     </nav>
     <!-- header that says a 100x100 Multiplication Table -->
     <div class="header">
         <h1>100x100 Multiplication Table</h1>
     </div>
     <!-- make a table with first row and column from 1 to 100 -->
+
     <?php
     echo "<table>";
     // add first row of numbers 1 to 100
