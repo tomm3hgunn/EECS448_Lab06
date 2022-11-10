@@ -1,0 +1,62 @@
+/* create a rounded shadow box for each div question */
+div.question {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    /* center  */
+}
+
+/* make class=total a round shadow box centered */
+div.total {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    padding: 10px;
+    width: 200px;
+}
+
+
+nav a {
+    padding: 0 20px;
+    text-decoration: none;
+    /* text font like youtube  */
+    font-family: 'Roboto', sans-serif;
+    /* text spaced out like youtube */
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+
+nav a:visited {
+    color: #ffffff;
+}
+
+/* navigation bar like youtube */
+nav {
+    background-color: #333333;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    /* white text */
+    color: #ffffff;
+    /* align text to middle of screen */
+    text-align: center;
+    /* vertical text center */
+    line-height: 40px;
+}
+
+body {
+    padding-top: 40px;
+}
+
+/* add padding top to h1 */
+
+.header {
+    padding-top: 20px;
+}

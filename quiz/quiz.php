@@ -5,7 +5,7 @@
     <meta charset="utf-8"> <!-- Display special symbols or characters correctly -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Scaling Size -->
     <!--* Add External Style Sheet  -->
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="/~t790n230/EECS448_Lab06/quiz/stylesheet.css">
 
     <!-- Title on Tab Bar -->
     <title>
@@ -14,6 +14,16 @@
 </head>
 
 <body>
+    <nav>
+        <a href="/~t790n230/index.html">Home</a>
+        <a href="/~t790n230/password.html">Password</a>
+        <a href="/~t790n230/slides.html">Slides</a>
+        <a href="/~t790n230/profile.html">Profile</a>
+        <a href="/~t790n230/manipulate.html">Manipulate</a>
+        <a href="/~t790n230/EECS448_Lab06/multiply/multiply.php">Multiplier</a>
+        <a href="/~t790n230/EECS448_Lab06/quiz/quiz.html">Quiz</a>
+        <a href="/~t790n230/EECS448_Lab06/store/customerFrontend.html">Store</a>
+    </nav>
     <!-- create a global variable total that increments for every right answer -->
     <?php
     $total = 0;
