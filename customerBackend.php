@@ -5,7 +5,7 @@
     <meta charset="utf-8"> <!-- Display special symbols or characters correctly -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Scaling Size -->
     <!--* Add External Style Sheet  -->
-    <link rel="stylesheet" href="/EECS448_Lab06/store/stylesheet.css">
+    <link rel="stylesheet" href="./stylesheet.css">
 
     <!-- Title on Tab Bar -->
     <title>
@@ -15,14 +15,14 @@
 
 <body>
     <nav>
-        <a href="/index.html">Home</a>
-        <a href="/password.html">Password</a>
-        <a href="/slides.html">Slides</a>
-        <a href="/profile.html">Profile</a>
-        <a href="/manipulate.html">Manipulate</a>
-        <a href="/EECS448_Lab06/multiply/multiply.php">Multiplier</a>
-        <a href="/EECS448_Lab06/quiz/quiz.html">Quiz</a>
-        <a href="/EECS448_Lab06/store/customerFrontend.html">Store</a>
+        <a href="/~t790n230/index.html">Home</a>
+        <a href="/~t790n230/password.html">Password</a>
+        <a href="/~t790n230/slides.html">Slides</a>
+        <a href="/~t790n230/profile.html">Profile</a>
+        <a href="/~t790n230/manipulate.html">Manipulate</a>
+        <a href="/~t790n230/EECS448_Lab06/multiply.php">Multiplier</a>
+        <a href="/~t790n230/EECS448_Lab06/quiz.html">Quiz</a>
+        <a href="/~t790n230/EECS448_Lab06/customerFrontend.html">Store</a>
     </nav>
     <!-- div Purchase complete header -->
     <div class="purchaseComplete">
